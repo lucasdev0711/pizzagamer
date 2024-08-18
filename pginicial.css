@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    background-color: #FAEE5B;
+}
+#nav img{
+    width: 90px;
+}
+#logo{
+    margin-left: 1.5%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: #FAb4fc;
+    font-family: "Lacquer", system-ui;
+       
+}
+#nav ul{
+    column-count: 5;
+    width: 100%;
+    list-style: none;
+    margin-left: 4%;
+}
+#nav a{
+    text-decoration: none;
+    color: #7843e6;
+}
+#login{
+    display: flex;
+    justify-items: center;
+    margin-top: -10%;
+    font-size: 10px;
+}
+.carrossel {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    
+   
+  }
+  .carrossel .imagem {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 1s ease;
+  }
+  .carrossel img {
+    width: 100%;
+    height: 100%;
+    filter:brightness(70%);
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  .navegação {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+  }
+  .manual-btn {
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 2s;
+    margin: 0 5px;
+   
+  }
+  .manual-btn:hover {
+    background: white;
+  }
+  #radio1:checked ~ .primeira {
+    left: 0;
+  }
+  #radio2:checked ~ .segunda {
+    left: 0;
+  }
+  #radio3:checked ~ .terceira {
+    left: 0;
+  }
+  #welcome{
+    position: relative;
+    font-size: 70px;
+    color: #FBD7FC;
+    margin-top:300px;
+    margin-left: 38.5%;
+    font-family: "Lilita One", sans-serif;
+  }
+  #rodape{
+    background-color: #FAb4fc;
+    color: #7843e6;
+    font-family: "Lacquer", system-ui;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #pizza1{
+    height: 55px;
+    margin-left: 3%;
+    
+  }
+  #pizza2{
+    height: 55px;
+  }
+  .social{
+    margin-top: 1%;
+    vertical-align: middle;
+  }
+  #rodape svg{
+    width: 20px;
+  }

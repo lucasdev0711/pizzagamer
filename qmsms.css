@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    background-color: #FAEE5B;
+}
+#nav img{
+    width: 90px;
+}
+#logo{
+    margin-left: 1.5%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: #FAb4fc;
+    font-family: "Lacquer", system-ui;
+       
+}
+#nav ul{
+    column-count: 5;
+    width: 100%;
+    list-style: none;
+    margin-left: 4%;
+}
+#nav a{
+    text-decoration: none;
+    color: #7843e6;
+}
+#login{
+    display: flex;
+    justify-items: center;
+    margin-top: -10%;
+    font-size: 10px;
+}
+  #rodape{
+    background-color: #FAb4fc;
+    color: #7843e6;
+    font-family: "Lacquer", system-ui;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #pizza1{
+    height: 55px;
+    margin-left: 3%;
+    
+  }
+  #pizza2{
+    height: 55px;
+  }
+  .social{
+    margin-top: 1%;
+    vertical-align: middle;
+  }
+  #rodape svg{
+    width: 20px;
+  }
+  #qmsms h1{
+    font-size: 25px;
+    font-family: "Lacquer", system-ui;
+    color: #7843e6;
+    text-align: center;
+    
+  }
+  #qmsms p{
+    font-size: 15px;
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    margin-top: 3%;
+  }
+  #qmsms{
+    height: 260px;
+    width: 30%;
+    margin-left: 18%;
+    margin-top: 10%;
+    text-align: justify;
+  }
+  #logo2{
+    width: 200px;
+    margin-top: 27%;
+    margin-left: 30%;
+  }
+  #main{
+    display: flex;
+
+  }
+  #img2{
+    margin-left: 17%;
+    margin-top: 10%;
+  }
+  #img2 img{
+    width: 100px;
+  }
+  #duvida h1{
+    font-size: 25px;
+    font-family: "Lacquer", system-ui;
+    color: #7843e6;
+    text-align: center;
+  }
+  #duvida button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #7843e6;
+    font-family: "Lilita One", sans-serif;
+    margin-top: 7%;
+  }
+  #duvida a{
+    text-decoration: none;
+    color: white;
+  }
+  #duvida{
+    height: 200px;
+    width: 20%;
+    margin-left: 37%;
+    text-align: center;
+  }

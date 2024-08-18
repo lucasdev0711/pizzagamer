@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #FAEE5B;
+}
+#nav img{
+    width: 90px;
+}
+#logo{
+    margin-left: 1.5%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: #FAb4fc;
+    font-family: "Lacquer", system-ui;
+       
+}
+#nav ul{
+    column-count: 5;
+    width: 100%;
+    list-style: none;
+    margin-left: 4%;
+}
+#nav a{
+    text-decoration: none;
+    color: #7843e6;
+}
+#login{
+    display: flex;
+    justify-items: center;
+    margin-top: -10%;
+    font-size: 10px;
+}
+#rodape{
+    background-color: #FAb4fc;
+    color: #7843e6;
+    font-family: "Lacquer", system-ui;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45%;
+  }
+  #pizza1{
+    height: 55px;
+    margin-left: 3%;
+    
+  }
+  #pizza2{
+    height: 55px;
+  }
+  .social{
+    margin-top: 1%;
+    vertical-align: middle;
+  }
+  #rodape svg{
+    width: 20px;
+  }
+  #fundopreto{
+    background-color: black;    
+    width: 90%;
+    height: 550px;
+    margin-top: 3%;
+    margin-bottom: -50%;
+    margin-left: 5%;
+  }
+  #fundoroxo{
+    width: 90%;
+    height: 470px;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-image: linear-gradient(#7843E6,#BCBCBC);
+    font-family: "Lacquer", system-ui;
+    font-size: 15px;
+    color: white;
+  }
+  #pizzassalgadas{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  #fundoroxo h1{
+    text-align: center;
+  }
+  #cardapio{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-bottom: -10%;
+  }
+  .pizzas img{
+    margin-top: 5%;
+    width: 75%;
+  }
+  #fundoroxo svg{
+    width: 10px;
+  }
+  #manete{
+    margin-top: -35%;
+    margin-left: 66.5%;
+    
+  }
+  #fundoroxo a{
+    font-size: 22px;
+    color: white;
+    font-style: none;
+  }
+  #pgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+    
+  }
+  .quantidade{
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #7843E6;
+    color: white;
+    height: 11px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+  }
+  #Finalizar button{
+    background-color: #7843E6;
+    font-size: 20px;
+    font-family: "Lacquer", system-ui;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 3.5%;
+  }
+  #Finalizar a{
+    text-decoration: none;
+  }
